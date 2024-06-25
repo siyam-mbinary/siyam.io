@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #0a0a0a;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1a1a1a;
+}
+
+header h1 {
+    color: #00ffcc;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #0d0d0d;
+}
+
+#hero img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+#services, #testimonials, #education {
+    padding: 20px;
+    background-color: #0d0d0d;
+    margin: 20px 0;
+}
+
+.service-item, .testimonial-item, .education-item {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+footer {
+    padding: 20px;
+    background-color: #1a1a1a;
+    text-align: center;
+}
+
+footer form {
+    display: flex;
+    flex-direction: column;
+}
+
+footer form input, footer form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer form button {
+    padding: 10px;
+    background-color: #00ffcc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 40%;
+    margin: 10px auto;
+}
